@@ -1,0 +1,7 @@
+/* src/components/HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}

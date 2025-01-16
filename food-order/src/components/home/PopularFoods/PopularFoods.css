@@ -1,0 +1,32 @@
+/* src/components/SpecialFoods.css */
+
+.special-foods {
+  margin-bottom: 20px;
+}
+
+.special-foods h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.food-cards {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.food-card {
+  flex: 0 0 auto; /* Allow cards to shrink */
+  margin-right: 20px;
+  text-align: center;
+}
+
+.food-card:last-child {
+  margin-right: 0;
+}
+
+.food-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}

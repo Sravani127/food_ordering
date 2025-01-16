@@ -1,0 +1,15 @@
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .printable-content,
+    .printable-content * {
+      visibility: visible;
+    }
+    .printable-content {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  

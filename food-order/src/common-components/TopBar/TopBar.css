@@ -1,0 +1,101 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #696969; /* Light grey text color */
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: white; /* Make the background transparent */
+}
+
+.top-bar-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.top-bar-left ul li {
+  margin-right: 20px;
+}
+
+.top-bar-left ul li:last-child {
+  margin-right: 0;
+}
+
+.top-bar-left ul li a {
+  color: #696969; /* Light grey text color */
+  text-decoration: none;
+}
+
+.top-bar-left ul li.active a {
+  color: #ee0c0c; /* Change to your desired color */
+  font-weight: bold; /* Example: bold */
+  /* Add additional styles for tab selection */
+  border-bottom: 2px solid #ee0c0c; /* Example border-bottom */
+}
+
+.top-bar-left ul li a:hover {
+  /* Add hover effect styles */
+  color: #ee0c0c; /* Change to your desired hover color */
+}
+
+.top-bar-middle .search-wrapper {
+  position: relative;
+}
+
+.top-bar-middle input {
+  padding: 8px 12px;
+  width: 300px;
+  border-radius: 4px;
+  border: none;
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #696969; /* Light grey text color */
+}
+
+.top-bar-right a {
+  color: #696969; /* Light grey text color */
+  text-decoration: none;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* Make the image circular */
+  overflow: hidden;
+  /* Hide any content that overflows the circular shape */
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Cover the circular area with the image */
+}
+
+.top-bar-bonus-points {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #ffc107; /* Yellow background color */
+  color: #333; /* Text color */
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.profile-and-bonus {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}

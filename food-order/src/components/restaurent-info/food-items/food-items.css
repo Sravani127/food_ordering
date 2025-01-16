@@ -1,0 +1,45 @@
+/* FoodItems.css */
+.food-items {
+    padding: 20px;
+  }
+  
+  .food-items .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .food-items .item {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .food-items .item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .food-items .item h5 {
+    margin-top: 10px;
+  }
+  
+  .food-items .item p {
+    margin: 5px 0;
+  }
+  
+  .food-items .item button {
+    margin-top: 10px;
+  }
+  
+  .food-items .cart-summary {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
